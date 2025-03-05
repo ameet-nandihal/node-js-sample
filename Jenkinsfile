@@ -27,7 +27,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                bat 'npm start'
+                bat 'npm start &'
             }
         }
     }
